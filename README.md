@@ -18,11 +18,6 @@ The Sonic-js library is utilized to integrate UIs/FEs/Apps to **transact** with 
 
 <br>
 
-## Examples 🔮
-
-Not sure where to start? Take a dive into our [sonic-js-example](https://github.com/Psychedelic/sonic-js-example) application to checkout what an implementation of Sonic-js looks like!
-
-<br>
 
 ## Table of Contents
 
@@ -50,37 +45,9 @@ Not sure where to start? Take a dive into our [sonic-js-example](https://github.
 ## Getting Started
 
 ### Install 🛠️
-
-First we need to setup the `.npmrc` file to fetch the right package on [Github Packages](https://github.com/features/packages).
-
-To do so, append the following line to your `.npmrc` file your project's root directory. If you don't have a `.npmrc` file, create a new one.
-
 ```
-@psychedelic:registry=https://npm.pkg.github.com
+npm install @sonicdex/sonic-js
 ```
-
-Now we need to setup our authentication on Github Packages. This step is compulsory, even for public packages.
-
-To do so you're going to need a personal access token with the following configurations:
-
-- **repo**
-- **read:packages**
-
-Next, authenticate yourself via the `npm login` command using your Github email for the username and the personal access token as your password:
-
-```bash
-npm login --registry=https://npm.pkg.github.com --scope=@psychedelic
-```
-
-With an authentication set up, now we need to run:
-
-```bash
-yarn add @psychedelic/sonic-js
-```
-
-Done! We have installed the package successfully.
-
-<br>
 
 ## Dependencies
 

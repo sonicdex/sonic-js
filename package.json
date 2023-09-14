@@ -1,10 +1,10 @@
 {
-  "name": "@psychedelic/sonic-js",
-  "version": "0.4.0",
+  "name": "@sonicdex/sonic-js",
+  "version": "0.4.1",
   "description": "Sonic-js is a library that holds an API for interacting with Swap Canister",
   "main": "dist/index.js",
-  "repository": "https://github.com/Psychedelic/sonic-js.git",
-  "author": "Psychedelic Team",
+  "repository": "https://github.com/sonicdex/sonic-js.git",
+  "author": "Sonic Team",
   "license": "GPL-3.0",
   "devDependencies": {
     "@types/jest": "^27.4.0",
